@@ -1,0 +1,33 @@
+1.  Init.  Boring stuff here.
+2.  Main program loop.
+3.  There is no spoon.
+
+Init:
+Set up inputs and outputs.
+  outputs are pixel wire,
+  status lights (probably more pixels),
+  fan control,
+  
+  inputs are big button (for running system),
+  config/mode button,
+  power button?  Might use long hold on config/mode for power.  Tap for mode, hold for config, hold longer for power.
+  
+Set up NeoPixel object.
+  There's probably only one of these.  System won't use many lights, should be able to easily control all on a single bus.
+  
+Set up color animation palettes.
+  Few defaults and a user programmable one.  That should be fun.
+
+Set up animation objects.
+  Just to have them at the ready.  Probably use the library (my modified version) defaults.
+
+Set default palette.
+  Probably rainbow spectrum becaue FABULOUS!
+
+Set default animation.
+  Probably loop fade.  Everyone loves loop fade.
+
+Set animation starting state (none).
+  Might be funny to turn it on and have disco lights but we'll be subtle.  This time.
+ 
+Main:
